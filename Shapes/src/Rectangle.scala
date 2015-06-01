@@ -1,15 +1,15 @@
 /**
  * Created by mahesh on 01/06/15.
  */
-class Rectangle(l :Int, b :Int) {
+class Rectangle(l :Int, b :Int) extends Shape{
   var length :Int = l
   var breadth :Int = b
 
-  def calculateArea(): Int = {
+  override def calculateArea(): Double = {
       length * breadth
   }
 
-  def calculatePerimeter(): Int = {
+  override def calculatePerimeter(): Double = {
     2 * (length + breadth)
   }
 

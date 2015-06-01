@@ -1,15 +1,15 @@
 /**
  * Created by mahesh on 01/06/15.
  */
-class Square(s :Int) {
+class Square(s :Int) extends Shape{
   var side :Int = s
   override def toString(): String = "Square(Side: "+side+")"
 
-  def calculateArea(): Int = {
+  override def calculateArea(): Double = {
     side * side;
   }
 
-  def calculatePerimeter(): Int ={
+  override def calculatePerimeter(): Double ={
     4 * side;
   }
 }
