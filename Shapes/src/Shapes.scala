@@ -7,6 +7,6 @@ object Shapes {
     val r1 = new Rectangle(5, 5);
     println(r1.toString() +"\tArea: "+r1.calculateArea() +", Perimeter: "+r1.calculatePerimeter())
     val s1 = new Square(2);
-    println(s1);
+    println(s1 +"\tArea: "+s1.calculateArea());
   }
 }

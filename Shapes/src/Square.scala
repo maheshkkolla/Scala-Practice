@@ -4,4 +4,8 @@
 class Square(s :Int) {
   var side :Int = s
   override def toString(): String = "Square(Side: "+side+")"
+
+  def calculateArea(): Int = {
+    4 * side;
+  }
 }
