@@ -9,6 +9,10 @@ class Rectangle(l :Int, b :Int) {
       length * breadth
   }
 
+  def calculatePerimeter(): Int = {
+    2 * (length + breadth)
+  }
+
   override
   def toString(): String = {
     "Rectangle(Length: "+length+" ,Breadth: "+breadth+")"

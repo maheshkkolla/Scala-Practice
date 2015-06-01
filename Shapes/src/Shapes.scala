@@ -6,6 +6,6 @@ import java.awt.Rectangle
 object Shapes {
   def main (args: Array[String]) {
     val r1 = new Rectangle(5, 5);
-    println(r1.toString() +"\tArea: "+r1.calculateArea())
+    println(r1.toString() +"\tArea: "+r1.calculateArea() +", Perimeter: "+r1.calculatePerimeter())
   }
 }
