@@ -6,6 +6,10 @@ class Square(s :Int) {
   override def toString(): String = "Square(Side: "+side+")"
 
   def calculateArea(): Int = {
+    side * side;
+  }
+
+  def calculatePerimeter(): Int ={
     4 * side;
   }
 }
